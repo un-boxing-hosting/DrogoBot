@@ -1,0 +1,15 @@
+{
+  "prefix": "+",
+  "token": "Bot token here",
+  "GIPHYtoken": "Giphy Token Here",
+  "channelID": "Channel ID Here",
+  "YOUTUBE_API_KEY": "YouTube API Key Here",
+  "PRUNING": true,
+  "channelID2": "Channel ID Here",
+  "channelID3": "Channel ID Here",
+  "consoleid": "Channel ID Here",
+  "boatsid": "Discord Boats ID Here",
+  "nodes": [
+        { "host": "localhost", "port" : 2333, "password": "youshallnotpass" }
+    ]
+}
