@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { prefix, token, GIPHYtoken, channelID, me, weirdman, tasks, moron, ghost, channelID2, channelID3, consoleid, boatsid } =require(`./config.json`);
+const { prefix, token, GIPHYtoken, channelID, channelID2, channelID3, consoleid, boatsid, me } =require(`./config.json`);
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 const { join } = require("path");

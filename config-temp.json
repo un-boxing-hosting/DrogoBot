@@ -9,6 +9,7 @@
   "channelID3": "Channel ID Here",
   "consoleid": "Channel ID Here",
   "boatsid": "Discord Boats ID Here",
+  "me": "Your ID here. (This is used for Dev only commands.)",
   "nodes": [
         { "host": "localhost", "port" : 2333, "password": "youshallnotpass" }
     ]
