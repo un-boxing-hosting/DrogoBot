@@ -2,5 +2,5 @@
 title DrogoBot
 :start 
 node DrogoBot.js
-timeout 10
+timeout 3
 goto start

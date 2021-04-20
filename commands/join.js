@@ -11,9 +11,9 @@ module.exports = {
 		const Member = message.member;
         const voicechannel = Member.voice.channel;
         const botvoicechannel = bot.voice.channel;
-        const player = bot.music.players.get(message.guild.id);
+        const player = bot.manager.players.get(message.guild.id);
         if (botvoicechannel){
-            bot.music.players.destroy(player.guild.id);
+            bot.manager.players.destroy(player.guild.id);
         } if (!botvoicechannel){
            
             voicechannel.join()

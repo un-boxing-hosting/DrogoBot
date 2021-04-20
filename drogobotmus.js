@@ -6,13 +6,13 @@ const {
     channelID,
     nodes,
     consoleid
-} = require('./drogobot-config.json');
+} = require('./config.json');
 //const defaultSettings = require(`./commands/setings.json`)
 const ytdl = require('ytdl-core');
 const ffmpeg = require('ffmpeg');
 const GphApiClient = require('giphy-js-sdk-core');
 const search = require('youtube-search');
-const GBL = require('gblapi.js');
+//const GBL = require('gblapi.js');
 const fs = require('fs');
 //const ErelaClient = Manager;
 const bot = new Discord.Client({
@@ -87,10 +87,10 @@ bot.on('messageDelete', async message => {
     if (message.guild) {
         if (message.member == null) return;
         if (message.member.user.bot) return;
-        var y = db.get('messagedelete_' + message.guild.id)
-        if (y !== `enabled`) return;
-        var x = db.get('loggingchannel_' + message.guild.id)
-        x = bot.channels.cache.get(x)
+       // var y = db.get('messagedelete_' + message.guild.id)
+        //if (y !== `enabled`) return;
+      //  var x = db.get('loggingchannel_' + message.guild.id)
+     //   x = bot.channels.cache.get(x)
         const fetchedLogs = await message.guild.fetchAuditLogs({
             limit: 1,
             type: 'MESSAGE_DELETE',
