@@ -21,7 +21,7 @@
     "erela.js": "^2.3.3",
     "express": "^4.17.1",
     "ffmpeg": "0.0.4",
-    "follow-redirects": "^1.13.3",
+    "follow-redirects": "^1.14.7",
     "fs": "0.0.1-security",
     "fs-extra": "^9.0.0",
     "gblapi.js": "^2.0.5",
